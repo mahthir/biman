@@ -35,7 +35,7 @@ body {
   margin-top: 1px;
 }
 .nav-link:hover {
-  color: #fff !important;
+  color: #fff;
 }
 
 ul li a {
@@ -105,13 +105,24 @@ ul li a {
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
+.biman-full {
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: end;
+  padding: 0;
+}
 
 .biman-body img {
   width: 16px;
-  animation: 7s ease-out infinite normal;
+  text-align: center;
+  font-size: bold;
 }
+
 .biman-body {
-  padding-top: 15px;
+  padding: 1%;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  margin-left: 0;
 }
 /*.setone-zoom-in {
   transform: scale(0.5);
@@ -129,10 +140,6 @@ ul li a {
   border: 1px solid white;
   font-size: inherit;
   padding: 0;
-}
-.last-img {
-  width: auto;
-  height: auto;
 }
 
 /*footer css */
