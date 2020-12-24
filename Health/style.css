@@ -1,5 +1,8 @@
 #bannar {
-    background-color: #FFFCAC;
-    background-color: #C7F295;
-
+  background-color: #fffcac;
+  background-color: #c7f295;
+}
+.medial-part {
+  background-color: #63088a;
+  text-emphasis-color: with;
 }
