@@ -1,22 +1,21 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .navbar {
   padding: 30px 15px;
 }
-.navbar-light .navbar-nav .active>.nav-link {
+.navbar-light .navbar-nav .active > .nav-link {
   color: white;
 }
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
 .navbar-brand {
- padding-left: 10px;
+  padding-left: 10px;
 }
 .nav-link {
   padding-top: 10px;
@@ -24,7 +23,28 @@ body {
   font-weight: 400;
   color: white;
 }
-
+.heder-text h1 {
+  font-size: 55px;
+  color: black;
+  font-weight: 700;
+  font-display: bold;
+}
+.heder-text p {
+  font-size: 20px;
+  text-align: start;
+  color: black;
+  font-weight: 300;
+  font-display: bold;
+}
+.card-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #2f2f2f;
+}
+.card-text p {
+  font-size: 20px;
+  color: black;
+}
 .find-part {
   margin: 2rem;
   margin-bottom: 3rem;
@@ -40,20 +60,16 @@ body {
   padding-right: 1rem;
 }
 .midd-part {
-margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 .card-one {
   page-break-after: 1.5rem;
-  border-radius: .4rem;
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.035),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.044),
-  0 12.5px 10px rgba(0, 0, 0, 0.049),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.054),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.06),
-  0 100px 80px rgba(0, 0, 0, 0.07);
+  border-radius: 0.4rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.035),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.044), 0 12.5px 10px rgba(0, 0, 0, 0.049),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.054), 0 41.8px 33.4px rgba(0, 0, 0, 0.06),
+    0 100px 80px rgba(0, 0, 0, 0.07);
 }
-
 
 #bannar {
   background-color: #faf7a2;
@@ -74,22 +90,21 @@ margin-bottom: 4rem;
   font-weight: bold;
   padding-top: 4rem;
   margin-left: 20px;
-
 }
 
 .right-content {
   margin-left: 10rem;
 }
 .carosole {
- padding-top: 1rem;
- padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 .imge-part {
-color: #7f20aa;
+  color: #7f20aa;
 }
 .carousel-caption {
   padding-bottom: 80px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 20px;
 }
 .bolge-contant {
@@ -98,23 +113,104 @@ color: #7f20aa;
 }
 .icon-part {
   font-size: 15px;
-  color: greenyellow;
+  color: #93e07e;
 }
 .more {
-  color: greenyellow;
+  color: #93e07e;
   text-align: center;
   padding-left: 30rem;
   padding-top: 15px;
 }
 .more-two {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25x;
+  font-display: bold;
+  font-weight: 400;
 }
-footer{
+footer {
   background-color: green;
-
 }
 .address {
   margin-left: 2rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
+}
+.address h4 {
+  font-size: 25px;
+  color: black;
+  font-weight: 300;
+}
+.address p {
+  color: dark black;
+  font-size: 17px;
+  font-weight: 200;
+}
+.item {
+  background: #fff;
+  text-align: center;
+  padding: 30px 25px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  border: 5px solid rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.item:hover {
+  background: green;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.02);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.item:hover .item,
+.item:hover span.icon {
+  background: #fff;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.item:hover h6,
+.item:hover p {
+  color: #fff;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.item .icon {
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #f91942;
+  widows: 90px;
+  height: 90px;
+  line-height: 96px;
+  border-radius: 50px;
+}
+.item .feature-box-col-one {
+  background: rgba(247, 198, 5, 0.15);
+  color: #f91942;
+}
+.item .feature-box-col-two {
+  background: rgba(247, 77, 28, 0.15);
+  color: #f91942;
+}
+.item .feature-box-col-three {
+  background: rgba(0, 147, 38, 0.15);
+  color: #f91942;
+}
+.item .feature-box-col-four {
+  background: rgba(0, 108, 5, 0.15);
+  color: #f91942;
+}
+.item .feature-box-col-five {
+  background: rgba(146, 39, 2555, 0.15);
+  color: #f91942;
+}
+.item .feature-box-col-six {
+  background: rgba(23, 39, 146, 0.15);
+  color: #f91942;
+}
+.item p {
+  font-size: 15px;
+  line-height: 26px;
+}
+.item h5 {
+  margin-bottom: 20px;
+  color: #2f2f2f;
 }
