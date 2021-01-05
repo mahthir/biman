@@ -173,20 +173,19 @@ footer {
 }
 .address h4 {
   font-size: 25px;
-  color: #fff;
+  color: #000;
   font-weight: 300;
 }
 .address p {
-  color: dark black;
-  font-size: 17px;
-  font-weight: 200;
+  color: #000;
+  font-size: 12px;
 }
 .item {
   background: #fff;
   text-align: center;
   padding: 30px 25px;
  /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.07); */
-  border-radius: 20px;
+  border-radius: 5px;
   margin-bottom: 30px;
  /* border: 5px solid rgba(0, 0, 0, 0.07); */
   -webkit-transition: all 0.5s ease 0s;
@@ -194,9 +193,13 @@ footer {
 }
 .item:hover {
   background: green;
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.02);
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+  background-image: url(./Img/svg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  /*box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.02); */
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-out;
+  
 }
 
  /*.item:hover .item,
