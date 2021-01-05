@@ -5,14 +5,17 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+/*=========================  start Header ===========================================*/
 .navbar {
-  padding: 30px 15px;
+  padding: 0;
 }
 .navbar-light .navbar-nav .active > .nav-link {
-  color: white;
+  color: #fff;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
 }
 .navbar-brand {
   padding-left: 10px;
@@ -23,14 +26,61 @@ body {
   font-weight: 400;
   color: white;
 }
+.main-header {
+  background-color: transparent;
+  position: relative;
+}
+.main-header .navbar {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+}
+.main-header .navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: #7fdf8f;
+  box-shadow: 0px 2px 6px #949494;
+}
+
+/*=========================  End Header ===========================================*/
+
+.card.card-one {
+  position: relative;
+}
+
+.testimonial .carousel-item {
+  position: relative;
+}
+.testimonial .carousel-item::after {
+  content: " ";
+  position: absolute;
+  background-color: #000;
+}
+.card.card-one::before {
+  content: " ";
+  border: 1px solid #000;
+  position: absolute;
+  height: 100%;
+  left: -36px;
+  width: 100%;
+  top: 34px;
+  z-index: -1;
+  border-radius: 4px;
+}
+
 .heder-text h1 {
   font-size: 55px;
   color: black;
   font-weight: 700;
   font-display: bold;
 }
-.heder-text p {
+#text-banar {
   font-size: 20px;
+}
+.heder-text p {
+  font-size: 16px;
   text-align: start;
   color: black;
   font-weight: 300;
@@ -42,41 +92,36 @@ body {
   color: #2f2f2f;
 }
 .card-text p {
-  font-size: 20px;
+  font-size: 17px;
   color: black;
 }
 .find-part {
   margin: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .part-two {
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
-.card-part {
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .midd-part {
   margin-bottom: 4rem;
 }
+
 .card-one {
-  page-break-after: 1.5rem;
-  border-radius: 0.4rem;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.035),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.044), 0 12.5px 10px rgba(0, 0, 0, 0.049),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.054), 0 41.8px 33.4px rgba(0, 0, 0, 0.06),
-    0 100px 80px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+.upper-block {
+  margin-top: -60px;
 }
 
 #bannar {
-  background-color: #faf7a2;
-  background-color: #c2f18b;
+  /* background-color: #faf7a2;
+  background-color: #c2f18b;*/
+  background: linear-gradient(to right, rgba(250, 211, 144, 1), rgba(120, 224, 143, 1));
   padding-top: 4rem;
 }
-.meditions-part {
+.medication-part {
   padding-bottom: 2rem;
 }
 .medial-part {
@@ -84,32 +129,26 @@ body {
   text-emphasis-color: with;
 }
 
-.heding {
-  text-align: center;
+.heading {
+  text-align: start;
   font-size: 36px;
   font-weight: bold;
   padding-top: 4rem;
-  margin-left: 20px;
+  padding-left: 6rem;
 }
 
 .right-content {
-  margin-left: 10rem;
-}
-.carosole {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-}
-.imge-part {
-  color: #7f20aa;
+  text-align: start;
+  padding-left: 6rem;
 }
 .carousel-caption {
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   font-family: "Montserrat";
   font-size: 20px;
 }
 .bolge-contant {
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 .icon-part {
   font-size: 15px;
@@ -118,24 +157,23 @@ body {
 .more {
   color: #93e07e;
   text-align: center;
-  padding-left: 30rem;
   padding-top: 15px;
 }
 .more-two {
-  font-size: 25x;
+  font-size: 17px;
   font-display: bold;
-  font-weight: 400;
+  font-weight: 600;
 }
 footer {
   background-color: green;
 }
 .address {
-  margin-left: 2rem;
-  margin-top: 0.5rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
 }
 .address h4 {
   font-size: 25px;
-  color: black;
+  color: #fff;
   font-weight: 300;
 }
 .address p {
@@ -147,10 +185,10 @@ footer {
   background: #fff;
   text-align: center;
   padding: 30px 25px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
+ /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.07); */
   border-radius: 20px;
   margin-bottom: 30px;
-  border: 5px solid rgba(0, 0, 0, 0.07);
+ /* border: 5px solid rgba(0, 0, 0, 0.07); */
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
@@ -160,14 +198,15 @@ footer {
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
-.item:hover .item,
+
+ /*.item:hover .item,
 .item:hover span.icon {
-  background: #fff;
+  background: red;
   border-radius: 10px;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-}
-.item:hover h6,
+}*/
+.item:hover h5,
 .item:hover p {
   color: #fff;
   -webkit-transition: all 0.5s ease 0s;
@@ -176,17 +215,16 @@ footer {
 .item .icon {
   font-size: 40px;
   margin-bottom: 25px;
-  color: #f91942;
+  color: #fff;
   widows: 90px;
   height: 90px;
   line-height: 96px;
   border-radius: 50px;
 }
 .item .feature-box-col-one {
-  background: rgba(247, 198, 5, 0.15);
-  color: #f91942;
+  background: green;
 }
-.item .feature-box-col-two {
+/*.item .feature-box-col-two {
   background: rgba(247, 77, 28, 0.15);
   color: #f91942;
 }
@@ -205,7 +243,7 @@ footer {
 .item .feature-box-col-six {
   background: rgba(23, 39, 146, 0.15);
   color: #f91942;
-}
+}*/
 .item p {
   font-size: 15px;
   line-height: 26px;
@@ -213,4 +251,17 @@ footer {
 .item h5 {
   margin-bottom: 20px;
   color: #2f2f2f;
+}
+@media (min-width: 991px) {
+  .upper-card {
+    margin-top: -60px;
+  }
+  .head-section {
+    padding-bottom: 50px;
+  }
+}
+.navbar-collapse.show {
+  background: #001a00;
+  height: 100vh;
+  width: 100vh;
 }
