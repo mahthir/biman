@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*=============Navbar========*/
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #09ec90 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #09ec90;
+}
+/*============Bannar===========*/
+.bannar {
+  background-image: url(./img/cvre.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.bannar h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 4rem;
+}
+.bannar p {
+  color: #fff;
+}
+.btn-success {
+  color: #fff;
+  background-color: #09ec90;
+  border-color: #09ec90;
+}
+.btn-success:hover {
+  color: #000000;
+  background-color: #ffff;
+  border-color: #ffffff;
+}
+/*==================Welcome part ================*/
+#company-name {
+  color: #09ec90;
+}
+#space {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/*--------------------Our Product--------------------*/
+.products-text {
+  text-align: center;
+}
+#product {
+  color: #09ec90;
+}
+.product-img {
+}
+.item {
+  background-color: #fff;
+  text-align: center;
+  margin-top: -50px;
+  position: absolute;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.item h4 {
+  color: #09ec90;
+}
+
+/*==============Why Choose=============================================*/
+.whypart-img {
+  width: 70px;
+  height: 70px;
+  background: #fff;
+}
+
+.whypart-img {
+  opacity: 0.4;
+  object-fit: cover;
+}
+
+/*============================Card part=====================================================*/
+.card-text {
+  text-align: center;
+}
+#card-fist {
+  color: #09ec90;
+}
+.text-top {
+  color: #7bbd00;
+}
+.card-body h5 {
+  font-family: "Carter One", cursive;
+  font-weight: 700;
+}
+.card-footer {
+  background-color: #fff;
+}
+.fa-color {
+  color: #7bbd00;
+}
+.text-date {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(173, 173, 146);
+  font-family: "Roboto", sans-serif;
+}
