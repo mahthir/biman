@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Sans Pro";
+}
+/*==================Navbar===================================*/
+.free-call {
+  color: #fff;
+  background-color: #bf8c2c;
+}
+.number {
+  font-weight: 600;
+  font-size: 20px;
+  font-size: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .navbar .navbar-expand-lg .navbar-dark {
+    padding-left: 1.5rem;
+  }
+}
+/*======================Banner part=======================================*/
+.banner {
+  background-color: #e8eeef;
+}
+.btn-success {
+  color: #fff;
+  background-color: #bf8c2c;
+  border-color: #bf8c2c;
+}
+.btn-success:hover {
+  color: #110101f0;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/*@media screen and (min-width: 768px) {
+  .banner {
+    height: 65vh;
+  }
+}*/
+
+.banner-img {
+  width: 100%;
+  height: 60vh;
+  padding: 0;
+  margin: 0;
+}
+/*===carosal===*/
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+#custCarousel .carousel-indicators {
+  position: static;
+  margin-top: 20px;
+}
+
+#custCarousel .carousel-indicators > li {
+  width: 100px;
+}
+
+#custCarousel .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+}
+
+#custCarousel .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+#custCarousel .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
+.carousel-item img {
+  width: 80%;
+}
+/*=================Welcome section==============================================*/
+.welcome {
+  background-color: #f6f6f6;
+}
+
+.item {
+  background-color: #f6f6f6;
+  position: relative;
+  margin-top: -29px;
+  margin-right: 60px;
+}
+.welcome-text p {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@media screen and (max-width: 425px) {
+  .text-part h2 {
+    font-size: 15px;
+    font-family: "Libre Baskerville", serif;
+  }
+  .text-part h4 {
+    font-size: 15px;
+    font-family: "Libre Baskerville", serif;
+  }
+}
+.text-part h2 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
+}
+.text-part h4 {
+  font-size: 24px;
+  font-family: "Libre Baskerville", serif;
+}
+/*===========================Explore window========================================*/
+.card-body {
+  background-color: #dff1f5;
+}
+.card-body h4 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+}
+.card-body p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #332a1a;
+  font-weight: 600;
+}
+.text-window h2 {
+  font-size: 40psx;
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
+}
+.text-window p {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.btn-primary {
+  color: #000;
+  background-color: #bf8c2c;
+  border-color: #bf8c2c;
+  border-radius: none;
+}
+.btn-primary:hover {
+  color: #110101f0;
+  background-color: #fff;
+  border-color: #fff;
+}
+.view {
+  position: relative;
+  margin-top: -50px;
+}
