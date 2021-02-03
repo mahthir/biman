@@ -245,11 +245,15 @@ iframe {
   background-color: #000;
 }
 .copyright-part {
-  color: rgb(112, 107, 107);
+  color: rgb(165, 161, 161);
 }
 .app-icon {
+  color: #bf8c2c;
   width: 45px;
   height: 45px;
   padding: 15px;
-  background-color: rgba(228, 228, 228, 0.589);
+  background-color: rgba(78, 76, 76, 0.589);
+}
+.app-icon:hover {
+  color: #fff;
 }
