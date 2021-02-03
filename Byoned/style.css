@@ -27,6 +27,21 @@ body {
 .banner {
   background-color: #e8eeef;
 }
+.text-part {
+  position: relative;
+}
+.number-part {
+  position: absolute;
+  margin-top: -158px;
+}
+.number1 {
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  padding-left: 5;
+  padding-right: 5px;
+  margin-left: 20px;
+}
 .btn-success {
   color: #fff;
   background-color: #bf8c2c;
@@ -38,11 +53,11 @@ body {
   border-color: #fff;
 }
 
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .banner {
     height: 65vh;
   }
-}*/
+}
 
 .banner-img {
   width: 100%;
@@ -92,6 +107,19 @@ body {
   margin-top: -29px;
   margin-right: 60px;
 }
+@media screen and (max-width: 768px) {
+  .item h4 {
+    font-size: 15px;
+    font-family: "Libre Baskerville", serif;
+  }
+}
+@media screen and (min-width: 769px) {
+  .item h4 {
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+  }
+}
+
 .welcome-text p {
   font-size: 18px;
   font-family: "Source Sans Pro", sans-serif;
@@ -108,7 +136,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .text-part h2 {
-    font-size: 48px;
+    font-size: 45px;
     font-weight: bold;
     font-family: "Libre Baskerville", serif;
   }
@@ -130,26 +158,47 @@ body {
   color: #332a1a;
   font-weight: 600;
 }
-.text-window h2 {
-  font-size: 40psx;
-  font-weight: bold;
-  font-family: "Libre Baskerville", serif;
+@media screen and (min-width: 768px) {
+  .text-window h2 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Libre Baskerville", serif;
+  }
+  .text-window p {
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
 }
-.text-window p {
-  font-size: 18px;
-  font-family: "Source Sans Pro", sans-serif;
-}
-@media screen and (max-width: 768px) {
-  .explore-row {
-    width: 300px;
-    background-color: #dff1f5;
-    border-radius: 20px;
-    padding: 10px;
+@media screen and (max-width: 425px) {
+  .text-window h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Libre Baskerville", serif;
+  }
+  .text-window p {
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
   }
 }
 @media screen and (min-width: 768px) {
   .explore-row {
+    width: 500x;
+    background-color: #dff1f5;
+    border-radius: 20px;
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .explore-row {
     width: 500px;
+    background-color: #dff1f5;
+    border-radius: 20px;
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .explore-row {
+    width: 300px;
     background-color: #dff1f5;
     border-radius: 20px;
     padding: 30px;
@@ -166,10 +215,10 @@ body {
   background-color: #fff;
   border-color: #fff;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .view {
     position: relative;
-    margin-top: -30px;
+    margin-top: -25px;
     margin-left: 200px;
   }
 }
@@ -192,7 +241,7 @@ body {
     width: 80%;
     height: 300px;
     padding: 30px;
-    margin-left: 250px;
+    margin-left: 220px;
     z-index: 1;
     margin-top: 30px;
   }
@@ -213,6 +262,9 @@ iframe {
   width: 100%;
   height: 360px;
   margin: auto;
+}
+.vedio {
+  height: 360px;
 }
 /*==========================Call Massage visiting=======================================*/
 .contact-card {
