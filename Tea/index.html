@@ -8,20 +8,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@0,100;0,400;0,500;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Tea</title>
   </head>
   <body>
     <header class="mani-header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top my-nav p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top p-0">
             <a class="navbar-brand" href="#"><img src="./img/logos 1.png" class="ml-4" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse p-3" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -44,13 +50,13 @@
     </header>
     <!------------Bannar part-->
     <section>
-      <div class="containar">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12 col-md-6">
+          <div class="col-md-12 col-md-6 contacts m-0 p-0">
             <div class="bannar">
               <h2>Each tea is carefully blended</h2>
             <p>carefully blended to create the perfact cap</p>
-            <button type="button" class="btn btn-success">GET A QUATE</button>
+            <button type="button" class="btn btn-success btn-lg">GET A QUATE</button>
             </div>
           </div>
         </div>
@@ -60,12 +66,12 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 col-md-6 col-ms-4 p-4">
+      <div class="col-md-12 col-md-6 col-ms-4 p-4 ">
           <div class="welcome">
            <P>W E L C O M E <span id="company-name">ROBINSON'S TEA</span></P>
             
           </div>
-          <div class="align-items-start d-flex justify-content-between welcome-part">
+          <div class="align-items-start d-flex flex-column flex-md-row justify-content-between welcome-part">
             <p id="space">Each tea purchase comes with orgnically and <br> ethically grow loose theleaf tea, carefully <br> blended to create the perfect cup.</p>
             <button type="button" class="btn btn-success">FIND OUT MORE</button>
           </div>
@@ -74,71 +80,64 @@
   </div>
 </section>
 <!--------------Our Product-------------------------------->
-<section>
+<section class="product">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 py-4">
         <div class="products-text">
           <p id="product">Our Product</p>
           <h2>Robinsons's Tea Company</h2>
           <p>Sus pendisse rutrum nibh urna. nece sodales enim sollictudin sen. Vivamus <br>  malesudad libero quis quam faucibus ac condimentum.</p>
         </div> 
       </div>
-              <div class="col-lg-4 col-md-6 py-5  justify-content-center">
+             <div class="owl-carousel owl-theme">
+              <div class="item car-part">
                 <div class="card">
                   <img src="./img/img1.png"  alt="">
                 </div>
-               <div class="item mx-5 p-1">
+               <div class="item1 mx-3">
                  <h4>Sorrel</h4>
                  <p>Sorrel has been a staple in the islan of jamaica for many years.</p>
                 </div> 
                 </div>
-                <div class="col-lg-4 col-md-6 py-5 justify-content-center">
+                <div class="item">
                   <div class="card">
                     <img src="./img/img2.png" alt="">
                   </div>
-                <div class="item mx-5 p-1">
+                <div class="item1 mx-3">
                   <h4>Sour Sop Leaves</h4>
                   <p>Sour, sop also know as Graviola is a fruit that is grown in the island of jamica</p>
                  </div> 
                 </div>
-                <div class="col-lg-4 col-md-6 py-5 m-auto justify-content-center">
+                <div class="item">
                   <div class="card">
                     <img src="./img/img3.png" alt="">
                   </div>
-                <div class="item mx-5 p-1">
+                  <div class="item1 mx-3">
                   <h4>Guniea Hen Weed</h4>
                   <p>Guinea hen weed is a herb commonly usen in jamaica, and in South America.</p>
-                 </div> 
+                   </div> 
                </div>
-            
-               <!---<div class="col mb-4 col-md-6">
+               <div class="item">
                 <div class="card">
-                  <img src="./img/img1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
+                  <img src="./img/img3.png" alt="">
                 </div>
-              </div>
-              <div class="col mb-4 col-md-6">
-                <div class="card">
-                  <img src="./img/img2.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col mb-4 col-md-6">
-                <div class="card">
-                  <img src="./img/img3.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-              </div>-->
+                <div class="item1 mx-3">
+                <h4>Guniea Hen Weed</h4>
+                <p>Guinea hen weed is a herb commonly usen in jamaica, and in South America.</p>
+                 </div> 
+             </div>
+             </div>
+                     <!--<div class="col-md-12 col-sm-6">
+                        <div class="select d-flex justify-content-center py-5">
+                          <div class="left">
+                            <a href="#" class="arow"><i class="fas fa-chevron-left"></i></a>
+                           </div>
+                         <div class="right">
+                          <a href="#" class="arow"><i class="fas fa-chevron-right"></i></a>
+                         </div>
+                       </div>
+                     </div>-->
     </div>
   </div>
 </section>
@@ -152,19 +151,19 @@
         <p>Beast darkness behold land gathering face unto every female had every dominion <br> first wherein greater All cattle earth  you'll, day.</p>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-lg-4 col-sm-6">
       <div class="why-img d-flex justify-content-lg-around"><img src="./img/tealave.svg" class="img-fluid whypart-img" alt="">
       <h4 class="p-4">Always Fresh</h4>
       </div>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus amet quis itaque perspiciatis enim.</p>
     </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-lg-4 col-sm-6">
       <div class="why-img d-flex justify-content-lg-around"><img src="./img/tealave.svg" class="img-fluid whypart-img" alt="">
       <h4 class="p-4">Always Fresh</h4>
       </div>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus amet quis itaque perspiciatis enim.</p>
     </div>
-     <div class="col-md-4 col-sm-6 m-auto">
+     <div class="col-lg-4 col-sm-6 m-auto">
       <div class="why-img d-flex justify-content-lg-around"><img src="./img/tealave.svg" class="img-fluid whypart-img" alt="">
       <h4 class="p-4">Always Fresh</h4>
       </div>
@@ -174,63 +173,130 @@
 </div>
 </section>
 <!----------------------Card Part------------------------------------------->
-<section>
+<section class="card-blog py-5">
 <div class="container">
   <div class="row">
-    <div class="col-md-12 col-md-6">
-      <div class="card-text">
+    <div class="col-md-12 col-md-4">
+      <div class="card-text1">
         <p id="card-fist">It's interesting</p>
        <h2>From The Blog</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi blanditiis officia perferendis aut expedita. Quidem eos voluptatibus, quos quia mollitia totam sint ducimus voluptate architecto.</p>
       </div>
     </div>
-    <div class="col-md-12 col-md-6">
+    <div class="col-md-12 col-md-6 p-0">
       <div class="card-deck">
-        <div class="card">
-          <a href="#"><img src="./img/teagraden.jpg" class="card-img-top" alt="..."></a>
+        <div class="col-lg-4 col-sm-6 py-3">
+          <div class="card">
+          <a href="#" class="link-part"><img src="./img/teagraden.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="text-top">Sour Sop leaves</p>
             <h5 class="card-title">3 ways how to test nutaral indian tea</h5>
             <p class="card-text">Mnago and peach White Iced Tea Integer maximus accumsan nunc, sit amet tempor lectus facilisis eu. Cras vel elit felis. Vestibulum convallis ipsum id a... </p>
           </div>
-          <div class="card-footer p-4">
+        </a>
+          <div class="card-footer py-3">
             <small class="text-date">February 21, 2018</small>
-            <small class="icon mx-3"><i class="fas fa-comment-dots fa-color"> 3</i></small>
-            <small class="icon"><i class="fas fa-eye fa-color"> 140</i></small>
+            <a href="#"><small class="icon mx-3"><i class="fas fa-comment-dots fa-color"> 3</i></small></a>
+            <a href="#"><small class="icon"><i class="fas fa-eye fa-color"> 140</i></small></a>
           </div>
-        </div>
-        <div class="card">
-          <a href="#"><img src="./img/tea honey.jpg" class="card-img-top" alt="..."></a>
+           </div>
+      </div>
+        <div class="col-lg-4 col-sm-6 py-3">     
+           <div class="card h-100">
+          <a href="#" class="link-part"><img src="./img/honey1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="text-top">Guinca Hen Weed</p>
             <h5 class="card-title">Rusults of international tea conference '18</h5>
             <p class="card-text">Mango and peach withe Iced Tea Integer maxmus accumsan nunc, sit amet tempor Iectus facilisis eu.Cras vel elit felis. Vestibulum convallis ipsum id a..</p>
           </div>
-          <div class="card-footer p-4">
+        </a>
+          <div class="card-footer py-3">
             <small class="text-date">February 21, 2018</small>
-            <small class="icon mx-3"><i class="fas fa-comment-dots fa-color"> 7</i></small>
-            <small class="icon"><i class="fas fa-eye fa-color"> 150</i></small>
+            <a href="#"><small class="icon mx-3"><i class="fas fa-comment-dots fa-color"> 7</i></small></a>
+            <a href="#"><small class="icon"><i class="fas fa-eye fa-color"> 150</i></small></a>
           </div>
+           </div>
         </div>
-        <div class="card">
-          <a href="#"><img src="./img/bland.jpg" class="card-img-top" alt="..."></a>
+        <div class="col-lg-4 col-sm-6 m-auto py-3">
+           <div class="card">
+          <a href="#" class="link-part" ><img src="./img/bland.jpg" class="card-img-top"  alt="...">
           <div class="card-body">
             <p class="text-top">Lemon Grass tea</p>
             <h5 class="card-title">The history of leaf tea in India</h5>
-            <p class="card-text">Mango and peach withe Iced Tea Integer maxmus accumsan nunc, sit amet tempor Iectus facilisis eu.Cras vel elit felis. Vestibulum convallis ipsum id a..</p>
+            <p class="card-text">Mango and peach withe Iced Tea Integer z accumsan nunc, sit amet tempor Iectus facilisis eu.Cras vel elit felis. Vestibulum convallis ipsum id a..</p>
           </div>
-          <div class="card-footer p-4">
+        </a>
+          <div class="card-footer py-3">
             <small class="text-date">February 29, 2018</small>
-            <small class="icon mx-3"><i class="fas fa-comment-dots fa-color"> 5</i></small>
-            <small class="icon"><i class="fas fa-eye fa-color"> 244</i></small>
+           <a href="#"><small class="icon mx-3"><i class="fas fa-comment-dots fa-color"> 5</i></small></a>
+            <a href="#"><small class="icon"><i class="fas fa-eye fa-color"> 244</i></small></a>
           </div>
-        </div>
+            </div>
+          </div>
       </div>
     </div>
   </div>
 </div>
 </section>
+<!--------------last Text part----------------------------------------->
+<section id="lastpart-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 py-2">
+        <div class="line-boder">
+             <div class="line">
 
+             </div>
+              <p class="lastpart-text"> Integer quis tempor orci. Sus pendissc Potenti. Intercum et malcsuada famcs ac ante ipsum in faucibus.</p>
+         </div>
+        </div>
+      <div class="col-md-6 col-sm-6 px-1 py-2">
+        <div class="icon-part d-flex mr-3 py-2">
+          <div class="d-flex">
+          <i class="fab fa-whatsapp fa-5x m-auto fa-color1" style="font-size: 20px;"></i>
+          <p class="number m-auto p-2">8-800-520-800</p>
+          </div>
+           <button type="button" class="btn btn-secondary rounded-pill align-self-center btn-dark mx-auto">Shop Now <i class="fas fa-chevron-circle-right fa-color"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---------------footer Part----------------------------------------->
+<footer class="footer-end p-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 py-4">
+        <div class="address">
+          <h6>A D D R E S S</h6>
+          <br>
+          <P>Address goes here,</P>
+          <p>Address gord here</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 py-4">
+         <div class="socials">
+          <h6>S O C I A L S</h6>
+          <br>
+          <div class="icon-part">
+            <a href="#"><i class="fab fa-twitter app-icon"></i></a>
+            <a href="#"><i class="fab fa-facebook-f app-icon"></i></a>
+            <a href="#"><i class="fab fa-pinterest app-icon"></i></a>
+            <a href="#"><i class="fab fa-instagram-square app-icon"></i></a>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 py-4 m-auto">
+        <div class="contacts">
+          <h6> C O N T A C T S</h6>
+          <br>
+          <P>123-456-7890</P>
+          <P>info@yoursite.com</P>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -238,5 +304,29 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="lib/owl/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+    </script>
+ <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+    }
+     })
+
+ </script>
+ 
   </body>
 </html>

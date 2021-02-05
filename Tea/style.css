@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Lobster&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
+body {
+  width: 100%;
+}
 /*=============Navbar========*/
 .navbar-light .navbar-nav .active > .nav-link {
   color: #09ec90 !important;
@@ -14,15 +18,25 @@
   color: #09ec90;
 }
 /*============Bannar===========*/
+
 .bannar {
-  background-image: url(./img/cvre.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/cvre.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   display: flex;
+  margin-top: 40px;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+}
+.row {
+  margin-left: -17px;
 }
 .bannar h2 {
   color: #fff;
@@ -42,6 +56,7 @@
   background-color: #ffff;
   border-color: #ffffff;
 }
+
 /*==================Welcome part ================*/
 #company-name {
   color: #09ec90;
@@ -52,25 +67,106 @@
 }
 
 /*--------------------Our Product--------------------*/
+.product {
+  background: #fafafa;
+}
 .products-text {
   text-align: center;
 }
 #product {
   color: #09ec90;
 }
-.product-img {
+/* .product .owl-dots {
+  display: none;
+} */
+.car-part {
+  padding-bottom: 110px;
 }
-.item {
+
+.item1 {
   background-color: #fff;
   text-align: center;
   margin-top: -50px;
+  min-height: 150px;
+  padding: 1rem;
   position: absolute;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .item h4 {
   color: #09ec90;
+  font-size: 20px;
+  padding: 1rem;
+  line-height: 2px;
+}
+.item p {
+  padding: 0px 5px 5px 5px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
+@media (max-width: 768px) {
+  .item p {
+    font-size: 15px;
+  }
+  .item h4 {
+    font-size: 20px;
+  }
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  height: 35px;
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  width: 35px;
+  background-color: #06de87;
+  border-radius: 50%;
+  color: #fff;
+  outline: none;
+}
+.product .owl-nav span {
+  font-size: 35px;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+.owl-nav {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #0aaf6d;
+  text-decoration: none;
+}
+
+.left {
+  background: #06de87;
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 35px;
+  margin-left: 5px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+  height: 35px;
+  width: 35px;
+  text-align: center;
+}
+
+.right {
+  background: #06de87;
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 35px;
+  margin-left: 5px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+  height: 35px;
+  width: 35px;
+  text-align: center;
+}
+.arow:hover {
+  color: #000000;
+}
 /*==============Why Choose=============================================*/
 .whypart-img {
   width: 70px;
@@ -84,7 +180,10 @@
 }
 
 /*============================Card part=====================================================*/
-.card-text {
+.card-blog {
+  background: #f5f8f2;
+}
+.card-text1 {
   text-align: center;
 }
 #card-fist {
@@ -94,7 +193,7 @@
   color: #7bbd00;
 }
 .card-body h5 {
-  font-family: "Carter One", cursive;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 .card-footer {
@@ -104,8 +203,101 @@
   color: #7bbd00;
 }
 .text-date {
-  font-size: 16px;
   font-weight: 500;
   color: rgb(173, 173, 146);
   font-family: "Roboto", sans-serif;
+}
+.card-text {
+  text-align: start;
+}
+.link-part {
+  color: #000000;
+}
+.link-part:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+/*=====================Last part text======================================================*/
+#lastpart-text {
+  background: #06de87;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.lastpart-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Lobster", cursive;
+}
+.line {
+  content: "";
+  display: flex;
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  width: 90px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.btn {
+  white-space: nowrap;
+}
+.fa-color1 {
+  color: #fff;
+}
+
+/*==================================Footer part=======================================================================*/
+.footer-end {
+  background: #484848;
+}
+.address {
+  color: #fff;
+  text-align: center;
+}
+.address {
+  content: "";
+  position: relative;
+  border-left: 1px solid rgba(212, 207, 207, 0.938);
+  border-right: 2px solid #fff;
+  height: 100%;
+}
+.socials {
+  color: #fff;
+  text-align: center;
+}
+
+.contacts {
+  color: #fff;
+  text-align: center;
+}
+.contacts {
+  content: "";
+  position: relative;
+  border-right: 1px solid rgba(212, 207, 207, 0.938);
+  border-left: 2px solid #fff;
+  height: 100%;
+}
+/*.icon-part a {
+  height: 15px;
+  width: 15px;
+  padding: 15px;
+  background-color: rgba(228, 228, 228, 0.589);
+  border-radius: 50%;
+}*/
+.app-icon {
+  height: 45px;
+  width: 45px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: rgba(228, 228, 228, 0.589);
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #06de87;
 }
