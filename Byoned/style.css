@@ -26,6 +26,8 @@ body {
 /*======================Banner part=======================================*/
 .banner {
   background-color: #e8eeef;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .text-part {
   position: relative;
