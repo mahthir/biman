@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*======================= Navbar nad Banner========================================================================*/
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.5;
+}
+
+.carousel-caption {
+  padding-bottom: 250px;
+}
+.carousel-caption h1 {
+  font-size: 58px;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-family: ;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.9;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.navbar-nav a {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.w-100 {
+  height: 100vh;
+}
+@media only screen and (max-width: 475px) {
+  .logor-part {
+    width: 220px;
+  }
+}
+@media only screen and (min-width: 476px) {
+  .logor-part {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .carousel-caption h1 {
+    font-size: 40px;
+    margin-top: 5px;
+  }
+  .carousel-caption p {
+    font-size: 15px;
+    line-height: 1;
+  }
+  .carousel-caption {
+    padding-bottom: 220px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption p {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+  .carousel-caption {
+    padding-bottom: 200px;
+  }
+}
+/*================Card part================================================*/
+.card-up {
+  position: relative;
+  top: -65px;
+}
+.card-part {
+  box-shadow: 0px 10px 5px #e7dfdf;
+  border: none;
+  padding: 10px;
+}
+.card-textpart h4 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.card-textpart p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .card-textpart h4 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .card-textpart p {
+    font-size: 15px;
+  }
+}
+/*==========================Welcome part========================================================*/
+.welcome-textpart h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #035d34;
+}
+.welcome-textpart p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome-button {
+  background-color: #035d34;
+  border-color: #035d34;
+}
+.welcome-button:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #035d34;
+}
+iframe {
+  width: 100%;
+  height: 360px;
+  margin: auto;
+}
+.vedio {
+  color: #035d34;
+}
+
+/*========================Design part================================================*/
+.design {
+  background: linear-gradient(rgba(2, 68, 22, 0.788), rgba(2, 68, 22, 0.788)),
+    url(./Img/mailldesign.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.disgn-textpart {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.desing-button {
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  border-color: #fff;
+}
+.desing-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+/*==============================================================================*/
+.footer-part {
+  background-color: #262626;
+}
+.footer-part1 p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.icon-part1 {
+  color: #fff;
+  padding: 10px;
+  font-size: 24px;
+}
+.icon-part1:hover {
+  color: #035d34;
+}
+.ft-part h2 {
+  color: #fff;
+}
+.footer-part2 p {
+  color: #fff;
+  font-size: 20px;
+}
+.footer-part3 {
+  color: #fff;
+  font-size: 24px;
+}
