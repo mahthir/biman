@@ -169,10 +169,25 @@ body {
   margin-top: -29px;
   margin-right: 60px;
 }
+.welcome-text p {
+  font-size: 22px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.text-part h2 {
+  font-size: 45px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+}
 @media screen and (max-width: 768px) {
   .item h4 {
     font-size: 15px;
     font-family: "Libre Baskerville", serif;
+  }
+  .text-part h2 {
+    font-size: 30px;
+  }
+  .welcome-text p  {
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 769px) {
@@ -181,35 +196,24 @@ body {
     font-family: "Libre Baskerville", serif;
   }
 }
-
-.welcome-text p {
-  font-size: 18px;
-  font-family: "Source Sans Pro", sans-serif;
-}
 @media screen and (max-width: 425px) {
   .text-part h2 {
     font-size: 30px;
-    font-family: "Libre Baskerville", serif;
   }
   .text-part h4 {
     font-size: 15px;
-    font-family: "Libre Baskerville", serif;
   }
 }
-@media screen and (min-width: 768px) {
-  .text-part h2 {
-    font-size: 45px;
-    font-weight: bold;
-    font-family: "Libre Baskerville", serif;
-  }
-  .text-part h4 {
-    font-size: 24px;
-    font-family: "Libre Baskerville", serif;
-  }
-}
+
 /*===========================Explore window========================================*/
 .explore-card {
   background-color: #dff1f5;
+}
+.explore-row {
+  width: auto;
+  background-color: #dff1f5;
+  border-radius: 20px;
+  padding: 30px;
 }
 .explore-card h4 {
   font-family: "Libre Baskerville", serif;
@@ -220,52 +224,16 @@ body {
   color: #332a1a;
   font-weight: 600;
 }
-@media screen and (min-width: 768px) {
-  .text-window h2 {
-    font-size: 45px;
-    font-weight: bold;
-    font-family: "Libre Baskerville", serif;
-  }
-  .text-window p {
-    font-size: 18px;
-    font-family: "Source Sans Pro", sans-serif;
-  }
+.text-window h2 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
 }
-@media screen and (max-width: 425px) {
-  .text-window h2 {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "Libre Baskerville", serif;
-  }
-  .text-window p {
-    font-size: 16px;
-    font-family: "Source Sans Pro", sans-serif;
-  }
+.text-window p {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
 }
-@media screen and (min-width: 768px) {
-  .explore-row {
-    width: 500x;
-    background-color: #dff1f5;
-    border-radius: 20px;
-    padding: 50px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .explore-row {
-    width: 500px;
-    background-color: #dff1f5;
-    border-radius: 20px;
-    padding: 30px;
-  }
-}
-@media screen and (max-width: 475px) {
-  .explore-row {
-    width: 300px;
-    background-color: #dff1f5;
-    border-radius: 20px;
-    padding: 30px;
-  }
-}
+
 .btn-primary {
   color: #000;
   background-color: #bf8c2c;
@@ -277,13 +245,49 @@ body {
   background-color: #fff;
   border-color: #fff;
 }
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 998px) {
+  .explore-row {
+    width: auto;
+    padding: 15%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-window h2 {
+    font-size: 45px;
+  }
+  .text-window p {
+    font-size: 18px;
+  }
+  .explore-row {
+    width: auto;
+    padding: 15%;
+  }
+}
+
+
+@media screen and (max-width: 475px) {
+  .explore-row {
+    width: auto;
+    background-color: #dff1f5;
+    border-radius: 20px;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .text-window h2 {
+    font-size: 30px;
+  }
+  .text-window p {
+    font-size: 16px;
+  }
+}
+/*@media screen and (min-width: 992px) {
   .view {
     position: relative;
     margin-top: -25px;
-    margin-left: 200px;
   }
-}
+}*/
 
 /*=======================new Window========================================*/
 .see-window {
