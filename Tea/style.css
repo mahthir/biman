@@ -56,6 +56,16 @@ body {
   background-color: #ffff;
   border-color: #ffffff;
 }
+@media (max-width: 768px) {
+  .bannar {
+    height: 60vh;
+  }
+  .bannar h2 {
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+}
+
 
 /*==================Welcome part ================*/
 #company-name {
