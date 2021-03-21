@@ -114,9 +114,10 @@
   .logor-part {
     width: 85%;
   }
-  
+}
+@media only screen and (max-width: 476px){
 .caro-text {
-  padding-bottom: 20%;
+  padding-bottom: 24%;
 }
 }
 /*================Card part================================================*/
@@ -225,14 +226,20 @@ iframe {
     font-size: 15px;
   }
 }
+/*=====================================wol Carosole part=======================================*/
+.owl-theme .owl-nav{
+  display: block;
+}
 
-/*==============================================================================*/
+/*===============================footer part===============================================*/
 .footer-part {
   background-color: #262626;
 }
 .footer-part1 p {
   color: #BCBCBC;
-  font-size: 15px;
+  font-size: 14px;
+  text-align: start;
+  margin-bottom: 0.6rem;
   font-family: "Roboto", sans-serif;
 }
 .icon-part1 {
@@ -246,6 +253,7 @@ iframe {
 .ft-part h2 {
   color: #fff;
   font-size: 24px;
+  padding-bottom: 1rem !important;
 }
 
 @media only screen and (max-width: 768px) {

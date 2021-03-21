@@ -237,47 +237,46 @@
       </div>
     </section>
     <!-------------------------slider part-------------------------------------------------------------------->
-    <!--------- <section>
+    <section>
       <div class="container">
-        <div>
           <div class="row">
             <div class="col-md-12">
-              <div class="owl-carousel">
-                <div  class="item">
-                  <i class="fas fa-chevron-left"></i>
-                </div>
-                <div  class="item">
-                  <img src="./Img/1.png" alt="" />
-                </div>
-                <div  class="item">
-                  <img src="./Img/2.png" alt="" />
-                </div>
-                <img src="./Img/3.png" alt="" />
-                <div  class="item">
-                  <img src="./Img/4.png" alt="" />
-                </div>
-                <div  class="item">
-                  <i class="fas fa-chevron-right"></i>
-                </div>
-              </div>
+              <div class="owl-carousel owl-theme">
+                <div class="item"><img src="./Img/1.png" alt="" /></div>
+                <div class="item"><img src="./Img/2.png" alt="" /> </div>
+                <div class="item"><img src="./Img/3.png" alt="" /></div>
+                <div class="item"><img src="./Img/3.png" alt="" /></div>
+                <div class="item"><img src="./Img/5.png" alt=""></div>
+            </div>
+                
+              
+                
+
+                
+ 
+                
+
+                
+
+                
+
             </div>
           </div>
-        </div>
       </div>
-    </section>---->
+    </section>
 
     <!-----------------footeer part---------------------------------------->
     <section class="footer-part">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <div class="footer-part1 py-4">
-              <img src="./Img/logo-footer 1.png" alt="" />
+            <div class="footer-part1 py-3">
+              <img src="./Img/logo-footer 1.png" class="pb-3" alt="" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem minus a consequuntur, minima nemo dolore?
               </p>
-              <div class="icon-part">
+              <div class="icon-part pt-3">
                 <a href=""><i class="fab fa-facebook-square icon-part1"></i></a>
                 <a href=""><i class="fab fa-twitter icon-part1"></i></a>
                 <a href=""><i class="fab fa-instagram icon-part1"></i></a>
@@ -286,27 +285,40 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="ft-part py-4">
+            <div class="ft-part py-3 px-3">
               <h2>Contact Us</h2>
             </div>
             <div class="footer-part1">
+              <div class="d-flex">
+                <P><i class="fas fa-paper-plane px-3"></i></P>
+                <p>
+                  House # 57 Gausul Azam Avenue
+                  Sectoro - 14, Uttara, Dhaka-1230, Bnagladesh
+                </p>
+            </div>
+              <div class="d-flex">
+                <p><i class="fas fa-phone-alt px-3"></i></p>
               <p>
-                <i class="fas fa-paper-plane px-3"></i> House # 57 Gausul Azam Avenue
-                Sectoro - 14, Uttara, Dhaka-1230, Bnagladesh
-              </p>
-              <p>
-                <i class="fas fa-phone-alt"></i> +88 0127-1236547, +88
+                 +88 0127-1236547, +88
                 0127-1236547, +88 0127-1236547 , +88 0127-1236547
               </p>
-              <p><i class="fas fa-envelope"></i> majfasdjf@gamil.con</p>
+            </div>
+            <div class="d-flex">
+              <p><i class="fas fa-envelope px-3"></i></p>
+              <p>majfasdjf@gamil.con</p>
+            </div>
             </div>
           </div>
           <div class="col-md-2">
-            <div class="ft-part py-4">
+            <div class="ft-part py-3 px-3">
               <h2>Useful</h2>
             </div>
-            <div class="footer-part1">
-              <p>About Careers Gallery Certifications Products</p>
+            <div class="footer-part1 px-3">
+              <a href=""><p>About</p></a>
+              <a href=""><p>Careers</p></a>
+              <a href=""><p>Gallery</p></a>
+              <a href=""><p>Certifications</p></a>
+              <a href=""><p> Products</p></a>
             </div>
           </div>
           <div class="col-md-3 m-auto">
@@ -346,6 +358,23 @@
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel();
       });
+      
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
     </script>
   </body>
 </html>
