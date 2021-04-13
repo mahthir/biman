@@ -262,6 +262,13 @@ iframe {
   top: 20%;
   right: -25px;
   display: block !important;
+
+}
+.owl-carousel .owl-nav button.owl-prev {
+  outline: none;
+}
+.owl-carousel .owl-nav button.owl-next {
+  outline: none;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
   color: #000;
